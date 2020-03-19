@@ -27,7 +27,11 @@ We need to create the S3 bucket where we are going to upload the image
 
 ```bash
 sh prepare_environment.sh
+
 ```
+## Invoke on local
+sls invoke local --function uploadImageToS3 --path handler.py --region us-east-1
+
 ## Deploy
 
 In order to deploy the example, simply run:
