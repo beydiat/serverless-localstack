@@ -23,6 +23,6 @@
     "serverless-localstack": "^0.4.19"
   },
   "dependencies": {
-    "serverless-offline": "^6.9.0"
+    "serverless-offline": "^11.2.3"
   }
 }
